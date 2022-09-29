@@ -1,0 +1,16 @@
+body{
+  background-color: lightblue;
+}
+
+figcaption{
+  font-family: cursive;
+  font-size: 100%;
+  text-align: center;
+  text-shadow: 10px;
+}
+
+img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
