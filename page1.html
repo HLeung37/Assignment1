@@ -1,10 +1,42 @@
 <!DOCTYPE html>
 <html>
+<head>
+ <link rel="stylesheet" href="index.css">
+</head>
 <title>Haley Site</title>
 <body>
 
-<h2>This is the first page made</h2>
-<h1>This page hold one image</h1>
+<h1>This is the first page made</h1>
+<h3>This page hold three images</h3>
+<p>Do you like animal? What's your favorite animal? Well who am I kidding how can I respond I'm a static website...</p>
+<br>
+<p>...do you like cats tho?? If you like cats then let me hit you up with these sick edits I made</p>
+<br>
+
+<img src = "LoidCat.png" alt = "its a cat but loid" width = "300" height = "300">
+<figcaption>It's a cat, but also a spy</figcaption><br>
+<img src = "YorCat.png" alt = "secretly an assassin" width = "300" height = "300">
+<figcaption>Secretly an assassin!!</figcaption><br>
+<img src = "WrathCat.png" alt = "a very angry cat" width = "300" height = "300">
+<figcaption>Why it so angry tho??</figcaption><br>
+<p>Honestly my head is empty so I don't know what you'd want to read or want me to write. You ever wonder what's the purpose of your existence? I always do. I wonder if there's any higher beings and such. Some people say yes and some people says no. I wonder...So why are you still reading this? You should probably look at the cat images instead of looking at me. This is just a quick paragraph to contemplate the reason for my existence!! Now shoo shoo.</p>
+
+<button type = "button" value = "LET'S DISCO" id = "DISCO">DISCO TIME</button><br>
+
+<a href = "index.html">Wait you want to leave? :(</a><br>
+<a href = "page2.html">Or do you want to go to the other site with table?</a>
 
 </body>
+
+<script>
+const discobtn = document.getElementById("DISCO")
+const setBg = () => {
+  const randomColor = Math.floor(Math.random()*16777215).toString(16);
+  document.body.style.backgroundColor = "#" + randomColor;
+}
+
+discobtn.addEventListener("click", setBg);
+
+</script>
+
 </ht
